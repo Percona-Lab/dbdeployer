@@ -224,7 +224,7 @@ fi
 # If master is 8.0, the slave must be at least 8.0
 if [ "$master_short_version" == "8.0" ]
 then
-    connection_string="$connection_string, GET_MASTER_PUBLIC_KEY=1"
+    connection_string="$connection_string, GET_SOURCE_PUBLIC_KEY=1"
 fi
 
 echo "Connecting to $master_path"

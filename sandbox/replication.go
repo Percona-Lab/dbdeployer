@@ -188,7 +188,7 @@ func CreateMasterSlaveReplication(sandboxDef SandboxDef, origin string, nodes in
 	}
 	if isMinimumNativeAuthPlugin {
 		if !sandboxDef.NativeAuthPlugin {
-			sandboxDef.ChangeMasterOptions = append(sandboxDef.ChangeMasterOptions, "GET_MASTER_PUBLIC_KEY=1")
+			sandboxDef.ChangeMasterOptions = append(sandboxDef.ChangeMasterOptions, "GET_SOURCE_PUBLIC_KEY=1")
 		}
 	}
 	slaves := nodes - 1

@@ -2108,11 +2108,11 @@
       "date_added": "2023-07-09 18:56"
     },
     {
-      "name": "mysql-8.0.33-linux-glibc2.17-x86_64-minimal.tar.xz",
-      "checksum": "MD5:377b6ae9c88a698438a19d67efa03252",
+      "name": "mysql-8.4.0-linux-glibc2.17-x86_64-minimal.tar.xz",
+      "checksum": "MD5:9c59dfc42f6998b94b4d03ad7a1afad8",
       "OS": "Linux",
       "arch": "amd64",
-      "url": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.33-linux-glibc2.17-x86_64-minimal.tar.xz",
+      "url": "https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.0-linux-glibc2.17-x86_64-minimal.tar.xz",
       "flavor": "mysql",
       "minimal": true,
       "size": 60181648,
